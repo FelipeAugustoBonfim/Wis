@@ -11,11 +11,13 @@
 
 html{
     font-size: 62.5%;
+
 }
 
 html, body {
     height: 100%;
     overflow: hidden;
+    
 }
 
 body{
@@ -123,12 +125,12 @@ nav {
 
 nav ul{
     display: flex;
+    list-style: none;
     
 }
 
 nav li{
     list-style: none;
-   
 }
 
 nav ul li a{
