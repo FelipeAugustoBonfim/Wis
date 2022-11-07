@@ -85,6 +85,9 @@
     animation: rotacao 0.9s ease-in-out;
 }
 
+
+
+/*ANIMAÇAO DO POST IT*/
 @keyframes rotacao {
     0%{
         transform: rotateY(50deg);
