@@ -1,0 +1,84 @@
+@media(max-width: 740px) {
+    html{
+        font-size: 65%;
+    }
+}
+@media(max-width: 580) {
+    html{
+        font-size: 40%;
+    }
+}
+
+@media(max-width: 510px) {            /*BOTAO RETRÁTIL*/
+    nav{
+        display: none;
+    }    
+
+
+    .one,
+    .two,
+    .three{
+        background-color: white;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+        border-radius: 5px;
+
+        transition-duration: 0.3s;
+    }
+    .menu-burguer{
+        width: 40px;
+        height: 30px;
+    }
+
+    .menu-section.on{
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 100vw;
+        height: 100vh;
+
+        background: linear-gradient(240deg, #00ccff 5%, #aaaf23 80%);
+        display: flex;
+        justify-content: center;
+        
+    
+    
+    }
+    .menu-section.on nav{
+        display: block;
+    }
+
+
+
+    .menu-section.on .menu-burguer{
+        position: absolute;
+        right: 0;
+        top: 15;
+        
+    }
+
+    .menu-section.on .menu-burguer .one{
+        transform: rotate(45deg) translate(7px, 7px); 
+    }
+    .menu-section.on .menu-burguer .two{
+        opacity: 0;
+    }
+
+
+    .menu-section.on .menu-burguer .three{
+        transform: rotate(-45deg) translate(9px, -9px); 
+    }
+
+    .menu-section.on nav ul{
+        display: block;
+        text-align: center;
+    }
+    .menu-section.on nav ul li a{
+        transition-duration: 0.5s;
+        font-size: 4rem;
+        line-height: 15rem;
+        
+    }
+}

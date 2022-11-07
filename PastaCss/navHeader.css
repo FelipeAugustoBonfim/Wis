@@ -1,0 +1,148 @@
+/*@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,200;0,700;1,200;1,400&family=Noto+Sans:ital,wght@0,200;1,200&display=swap" rel="stylesheet">);
+*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body{
+    font-size: 1.6rem;
+    background: linear-gradient(180deg,#2a6194 1%, #7a4e73 99%);
+    /*a parte rosa da div esquerda é por causa daqui.*/
+}
+header{
+    background-image: url(/testePastaHTML/sky.jpg);
+
+}
+
+
+
+/*=============================================*/
+body.active{
+    background: linear-gradient(180deg,#FFFEA3 1%, #FF9796 99%);
+    transition: all 6s;
+    
+}
+
+header.active{
+    background: linear-gradient(0deg, #0e0e0e 5%, #0e0e0e  80%);
+}
+
+header.active a{
+    color: white;
+}
+header.active .Logo h1{
+    font-family: Noto Sans;
+    color: rgb(255, 255, 255);
+}
+
+/*==============================================*/
+#btn{
+    width: 25px;
+    height: 12px;
+    border: 1px solid #fff;
+    border-radius: 60px;
+    position: absolute;
+    top: 30px;
+    left: 95%;
+    cursor: pointer ;
+}
+
+
+
+#btn.active:before{
+    left: 13px;
+
+}
+
+
+#btn:before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    top: 50%;
+    left: -1px;
+    transform: translateY(-50%);
+    transition: top .5s;
+}
+
+
+header .container{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.Logo h1{
+    font-family: Noto Sans;
+    color: rgb(255, 255, 255);
+
+}
+
+/*=============================================================================*/
+
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+nav ul{
+    display: flex;
+    
+}
+
+nav li{
+    list-style: none;
+   
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 2.1rem;
+    margin: 15px;
+    padding: 6px 10px;
+   
+    font-family: Poppins;
+}
+nav ul li a:hover{
+    background-color: rgba(240, 248, 255, 0.24);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.imglogo{
+    /*background-color: #099E97;*/
+    width: 8%;
+    height: 10%;
+    cursor: pointer;
+    margin-top: 1%;
+    display: flex;
+}
+.imglogo:hover{
+    opacity: 60%;
+}

@@ -1,0 +1,17 @@
+@media(max-width: 1100) {
+    
+    .esquerdaFeed{
+        display: none;
+    }
+    
+}
+
+
+@media(max-width: 760px) {
+    .poshit{
+        display: none;
+    }
+    .esquerdaFeed{
+        display: none;
+    }
+}

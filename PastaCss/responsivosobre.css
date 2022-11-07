@@ -1,0 +1,36 @@
+@media(max-width: 740px) {
+    html{
+        font-size: 65%;
+    }
+}
+@media(max-width: 580) {
+    html{
+        font-size: 40%;
+    }
+}
+
+
+
+@media(max-width: 510px) {
+
+    .direita{
+        display: none;
+    }
+}
+
+@media(max-width: 750px) {            /*BOTAO RETRÁTIL*/
+
+
+    .esquerda{
+        display: none;
+    }
+    .direita{
+        position: absolute;
+        left: 50%;
+        top: 10%;  
+        transition: linear;
+        transition: 0.6s linear;
+        transform: translateX(-100%, -);
+        margin-left: -20%;
+    }
+}
