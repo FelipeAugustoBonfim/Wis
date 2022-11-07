@@ -25,10 +25,11 @@ body{
 }
 header{
     background-image: url(/testePastaHTML/sky.jpg);
-
+    position: fixed;
+    width: 100%;
 }
 
-
+/*CORES DA PAGINA (MODO NOTURNO E DIURNO)*/
 
 /*=============================================*/
 body.active{
@@ -50,6 +51,16 @@ header.active .Logo h1{
 }
 
 /*==============================================*/
+
+
+/*NOME DA PAGINA*/
+.Logo #logo-name-wis{
+    text-decoration: none;
+    list-style: none;
+    color: red;
+}
+
+
 #btn{
     width: 25px;
     height: 12px;
