@@ -109,7 +109,7 @@ h6{
 
 
 .holderName{
-    
+    background-color: beige;
     width: 90%;
     height: 4vh;
     border-radius: 3px 3px 3px 3px ;
@@ -169,6 +169,9 @@ h6{
 .botaoEntrar:hover{
     opacity: 60%;
 }
+
+
+
 
 input{
     background: transparent;
