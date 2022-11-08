@@ -15,7 +15,7 @@
     /*background-color: rgb(65, 95, 121);*/     /*REMOVER ISSO*/
     width: 110vh;
     height: 100%;
-    padding-top: 60px;
+
 }
 
 .mensagemBoasVindas{
@@ -107,10 +107,8 @@
     display: flex;
 }
 .bar{
-    width: 50px;
-    height: 10px;
-    /*width: 5vw;
-    height: 2vh; */
+    width: 5vw;
+    height: 2vh;
     border: 2px solid white;
     margin: 6px;
     border-radius: 5px;
@@ -329,6 +327,7 @@ input{
 }
 
 #msg-usuario{
+
     color: white;
     resize: none;
     width: 100%;
