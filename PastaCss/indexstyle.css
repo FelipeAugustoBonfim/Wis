@@ -325,6 +325,7 @@ input{
 #ook{
     width: 10vw;
     height: 10vh;
+<<<<<<< HEAD
 }
 
 #msg-usuario{
@@ -339,4 +340,6 @@ input{
 
 #msg-usuario:focus{
     padding-left: 7px;
+=======
+>>>>>>> parent of 20661f3 (atualização do post it animado)
 }
