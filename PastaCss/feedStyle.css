@@ -76,13 +76,8 @@
 }
 
 .elements > figure img:hover{
-    animation: rotacao 0.9s ease-in-out;
+    animation: rotacao 0.9s ease-in-out infinite;
 }
-
-<<<<<<< HEAD
-/*ANIMAÇAO DO POST IT*/
-=======
->>>>>>> parent of 20661f3 (atualização do post it animado)
 @keyframes rotacao {
     0%{
         transform: rotateY(50deg);
