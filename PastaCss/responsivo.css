@@ -9,19 +9,20 @@
     }
 }
 
-@media(max-width: 750px) {            /*BOTAO RETRÁTIL*/
+
+@media(max-width: 1000px) {
+    .Lado-esquerdo{
+        display: none;
+    }
     #btn{
         display: none;
     }
-    .ChatGeral{
-        display: none;
+}     
+@media(max-width: 532){
+    .chat-container{
+        width: 1000px;
+        height: 1000px;
+        background-color: red;
+        display: block;
     }
-
-    .content{
-        display: none;
-    }
-    .esquerda{
-        display: none;
-    }
-
 }

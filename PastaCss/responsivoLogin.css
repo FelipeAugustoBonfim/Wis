@@ -1,0 +1,22 @@
+@media(max-width: 1000px) {
+    .esquerda{
+        display: none;
+    }
+    .direita{
+        margin-left: 25%;
+    }
+    .boxFora{
+        width: 100%;
+    }
+    .boxImage{
+        width: 100%;
+    }
+}
+@media(max-width: 635px){
+    .direita{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 30vmax;
+    }
+}

@@ -66,17 +66,40 @@
     border-radius: 10px 10px 10px 10px;
     display: flex;
     justify-content: center;
+    width: 100%;
+  /*width: 100%;*/
+
 }
 .elements img{
     cursor: pointer;
-}
 
+    /*width: 24.4%;*/
+}
+.elements > figure #moreHIDDEN{
+  width: 24.4%;
+  height: 32.3%;
+}
 #moreHIDDEN:hover{
     opacity: 60%;
 }
 
+.elements > figure #moreHIDDEN:hover{
+  
+  animation: efeito-pulso .8s linear infinite;
+}
+@keyframes efeito-pulso{
+
+
+  60%{
+    transform: scale(0.8);
+  }
+  0%{
+    transform: scale(1);
+  }  
+}
+
 .elements > figure img:hover{
-    animation: rotacao 0.9s ease-in-out infinite;
+    animation: rotacao 0.9s ease-in-out;
 }
 @keyframes rotacao {
     0%{

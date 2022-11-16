@@ -1,28 +1,29 @@
-/*@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,200;0,700;1,200;1,400&family=Noto+Sans:ital,wght@0,200;1,200&display=swap" rel="stylesheet">);
-*/
-*{
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    box-sizing: border-box;
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+  outline: 0;
+	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+body {
+	font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  background: linear-gradient(180deg,#2a6194 1%, #7a4e73 99%);
+    /*a parte rosa da div esquerda é por causa daqui.*/
+}
 html{
     font-size: 62.5%;
 }
 
 html, body {
     height: 100%;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
-body{
-    font-size: 1.6rem;
-    background: linear-gradient(180deg,#2a6194 1%, #7a4e73 99%);
-    /*a parte rosa da div esquerda é por causa daqui.*/
-}
+
 header{
     background-image: url(/testePastaHTML/sky.jpg);
     position: fixed;

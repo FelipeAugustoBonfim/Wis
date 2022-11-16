@@ -1,17 +1,18 @@
-@media(max-width: 1100) {
-    
+@media(max-width: 1000px) {
+
+    .ContainerBody{
+        display: flex;
+        justify-content: center;
+    }
+
     .esquerdaFeed{
         display: none;
     }
-    
 }
 
-
-@media(max-width: 760px) {
-    .poshit{
-        display: none;
-    }
-    .esquerdaFeed{
-        display: none;
+@media(max-width: 375px) {
+    .direitaFeed{
+        width: 100%;
+        height: 30px;
     }
 }
